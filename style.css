@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #e1eedd;
+    display: flex;
+    flex-direction: row;
+}
+
+.list{
+    justify-content: center;
+    margin-left: 400px;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 70px;
+    height: 70px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+ul li{
+    margin: 30px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+a{
+    color:  #183a1d;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+a:hover{
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.corp{
+    display: flex;
+    background-color: #fefbe9;
+    width: 100%;
+    height: 1000px;
+    justify-content: center;
+}
+
+.data{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #f6c55377;
+    height: 600px;
+    width: 400px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.submit{
+    color: #ffff;
+    background-color: #183a18;
+    width: 120px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+.submit:hover{
+    color: #183a18;
+    background-color: #ffff;
+    transition: all 1s;
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+    outline: none;
+}
+
+h3{
+    margin-top: 15px;
+}
+
